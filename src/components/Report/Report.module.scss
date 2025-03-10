@@ -1,0 +1,34 @@
+.active {
+  background: #54d3c2;
+}
+
+.report {
+  width: 264px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 20px;
+
+  .report__percentages {
+    width: 144px;
+    background: #54d3c226;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 5px 15px;
+  }
+  .report__amount {
+    padding: 10px 10px 5px 10px;
+    font-size: 24px;
+  }
+  .report__type {
+  }
+  .report__division {
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}

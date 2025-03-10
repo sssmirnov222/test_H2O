@@ -1,0 +1,66 @@
+.navBar {
+  background: linear-gradient(to bottom, #54d3c2, #30898a);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+  height: 100vh;
+  width: 267px;
+  .navBar__logo {
+    margin: 30px 20px 0px 20px;
+
+    .navBar__logo_H2O {
+      width: 44px;
+      height: 28px;
+    }
+  }
+
+  .navBar__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    .navBar__navigation_calendar {
+      margin-top: 80%;
+      width: 20px;
+      height: 22px;
+    }
+
+    .navBar__navigation_basket {
+      margin-top: 80%;
+      width: 24px;
+      height: 20px;
+    }
+
+    .navBar__navigation_users {
+      margin-top: 80%;
+      width: 30px;
+      height: 22px;
+    }
+
+    .navBar__navigation_money {
+      margin-top: 80%;
+      width: 24px;
+      height: 24px;
+    }
+
+    .navBar__navigation_rectange {
+      margin-top: 80%;
+      width: 38px;
+      height: 38px;
+    }
+
+    .navBar__navigation_events {
+      margin-top: 80%;
+      width: 26px;
+      height: 22px;
+    }
+
+    .navBar__navigation_setting {
+      margin-top: 80%;
+      width: 22px;
+      height: 22px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+.App__main {
+  display: flex;
+  flex-direction: column;
+}
